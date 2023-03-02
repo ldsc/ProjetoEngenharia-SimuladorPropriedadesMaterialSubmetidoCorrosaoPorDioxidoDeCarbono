@@ -1,0 +1,569 @@
+
+
+*******************************************************************************
+Mon Jan 11 20:01:55 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0238218936e+06  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 1.7441677161e+06 -7.75e-01 6.42e-03  8.180837e+00 -1.179002e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.74417e+006
+rel. change during last iteration : -7.75021e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 539.161
+variance of residuals (reduced chisquare) = WSSR/ndf   : 290695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.18084          +/- 5.954        (72.78%)
+b               = -11.79           +/- 540.8        (4587%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:03:39 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0238218936e+06  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 1.7441677161e+06 -7.75e-01 6.42e-03  8.180837e+00 -1.179002e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.74417e+006
+rel. change during last iteration : -7.75021e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 539.161
+variance of residuals (reduced chisquare) = WSSR/ndf   : 290695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.18084          +/- 5.954        (72.78%)
+b               = -11.79           +/- 540.8        (4587%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:08:38 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0238218936e+06  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 1.7441677161e+06 -7.75e-01 6.42e-03  8.180837e+00 -1.179002e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.74417e+006
+rel. change during last iteration : -7.75021e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 539.161
+variance of residuals (reduced chisquare) = WSSR/ndf   : 290695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.18084          +/- 5.954        (72.78%)
+b               = -11.79           +/- 540.8        (4587%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:13:57 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0238218936e+06  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 1.7441677161e+06 -7.75e-01 6.42e-03  8.180837e+00 -1.179002e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.74417e+006
+rel. change during last iteration : -7.75021e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 539.161
+variance of residuals (reduced chisquare) = WSSR/ndf   : 290695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.18084          +/- 5.954        (72.78%)
+b               = -11.79           +/- 540.8        (4587%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:19:28 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0238218936e+06  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 1.7441677161e+06 -7.75e-01 6.42e-03  8.180837e+00 -1.179002e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.74417e+006
+rel. change during last iteration : -7.75021e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 539.161
+variance of residuals (reduced chisquare) = WSSR/ndf   : 290695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.18084          +/- 5.954        (72.78%)
+b               = -11.79           +/- 540.8        (4587%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:26:21 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0390499044e+07  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 3.4189339783e+06 -7.84e-01 6.42e-03  1.146293e+01 -1.700781e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.41893e+006
+rel. change during last iteration : -7.84087e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 754.866
+variance of residuals (reduced chisquare) = WSSR/ndf   : 569822
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 11.4629          +/- 8.336        (72.72%)
+b               = -17.0078         +/- 757.2        (4452%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:28:40 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2708889241e+07  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 4.1343231111e+06 -7.34e-01 6.42e-03  1.259524e+01 -1.815374e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.13432e+006
+rel. change during last iteration : -7.33927e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 830.093
+variance of residuals (reduced chisquare) = WSSR/ndf   : 689054
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 12.5952          +/- 9.167        (72.78%)
+b               = -18.1537         +/- 832.6        (4586%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:33:18 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0238218936e+06  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   4 1.7441677161e+06 -7.75e-01 6.42e-03  8.180837e+00 -1.179002e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.74417e+006
+rel. change during last iteration : -7.75021e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 539.161
+variance of residuals (reduced chisquare) = WSSR/ndf   : 290695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.18084          +/- 5.954        (72.78%)
+b               = -11.79           +/- 540.8        (4587%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:38:51 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0658657814e+04  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 4.6600290681e+04 -2.22e-01 7.02e-04 -9.302096e-01  1.661456e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 46600.3
+rel. change during last iteration : -2.22134e-006
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 76.3219
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5825.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.93021         +/- 0.8403       (90.33%)
+b               = 166.146          +/- 83.4         (50.19%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 20:49:08 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0658657814e+04  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 4.6600290681e+04 -2.22e-01 7.02e-04 -9.302096e-01  1.661456e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 46600.3
+rel. change during last iteration : -2.22134e-006
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 76.3219
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5825.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.93021         +/- 0.8403       (90.33%)
+b               = 166.146          +/- 83.4         (50.19%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 22:14:14 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.6489951709e+05  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 1.1046013933e+05 -2.23e-01 7.02e-04 -1.432154e+00  2.557981e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 110460
+rel. change during last iteration : -2.23069e-006
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 117.505
+variance of residuals (reduced chisquare) = WSSR/ndf   : 13807.5
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -1.43215         +/- 1.294        (90.33%)
+b               = 255.798          +/- 128.4        (50.19%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 22:14:49 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0658657814e+04  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 4.6600290681e+04 -2.22e-01 7.02e-04 -9.302096e-01  1.661456e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 46600.3
+rel. change during last iteration : -2.22134e-006
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 76.3219
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5825.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.93021         +/- 0.8403       (90.33%)
+b               = 166.146          +/- 83.4         (50.19%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Thu Jan 14 11:14:02 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0658657814e+04  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 4.6600290681e+04 -2.22e-01 7.02e-04 -9.302096e-01  1.661456e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 46600.3
+rel. change during last iteration : -2.22134e-006
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 76.3219
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5825.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.93021         +/- 0.8403       (90.33%)
+b               = 166.146          +/- 83.4         (50.19%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Thu Jan 14 11:17:44 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 nan                nan       8.06e+01  1.000000e+00  1.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 3
+x               = nan            
+z               = 429.415        
+
+Current set of parameters
+=========================
+a               = nan            
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Jan 14 11:19:43 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.1372369025e+04  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 3.4782231158e+04 -2.22e-01 7.02e-04 -6.876859e-01  1.437467e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 34782.2
+rel. change during last iteration : -2.22354e-006
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 65.9377
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4347.78
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.687686        +/- 0.726        (105.6%)
+b               = 143.747          +/- 72.05        (50.12%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Thu Jan 14 13:50:50 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.3010937707e+04  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 6.3995258529e+00 -2.84e-03 7.02e-04  7.999510e-02  1.210063e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.39953
+rel. change during last iteration : -2.84222e-008
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.894394
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.799941
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.0799951        +/- 0.009847     (12.31%)
+b               = 1.21006          +/- 0.9773       (80.76%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 

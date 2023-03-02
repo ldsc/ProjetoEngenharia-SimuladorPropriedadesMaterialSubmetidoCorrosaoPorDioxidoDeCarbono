@@ -1,0 +1,104 @@
+
+
+*******************************************************************************
+Thu Jan 21 08:34:52 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 nan                nan       7.02e+01  1.000000e+00  1.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 10
+x               = nan            
+z               = inf            
+
+Current set of parameters
+=========================
+a               = nan            
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Jan 21 08:37:26 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 nan                nan       7.02e+01  1.000000e+00  1.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 10
+x               = nan            
+z               = inf            
+
+Current set of parameters
+=========================
+a               = nan            
+b               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Jan 27 09:22:48 2016
+
+
+FIT:    data read from 'tenacidadeAFratura.txt'
+        format = z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.7598e+07        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 37.2846
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.50173e+07
+rel. change during last iteration : -1.9317e-12
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1733.05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.00346e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 29.855           +/- 14.63        (49.02%)
+b               = 445.329          +/- 771.5        (173.3%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.528  1.000 

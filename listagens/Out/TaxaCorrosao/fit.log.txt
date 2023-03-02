@@ -1,0 +1,180 @@
+
+
+*******************************************************************************
+Mon Jan 11 20:28:41 2016
+
+
+FIT:    data read from 'TaxaDeCorrosao.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4058624618e+09  0.00e+00 6.42e+01  1.000000e+00  1.000000e+00
+   5 6.6314093921e+06 -3.27e-01 6.42e-04 -1.844075e+02  3.942490e+03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.63141e+006
+rel. change during last iteration : -3.26581e-006
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1051.3
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.10523e+006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -184.407         +/- 11.61        (6.296%)
+b               = 3942.49          +/- 1055         (26.75%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.936  1.000 
+
+
+*******************************************************************************
+Mon Jan 11 22:14:15 2016
+
+
+FIT:    data read from 'TaxaDeCorrosao.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4488686489e+09  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   5 3.7717086817e+08 -9.97e-02 7.02e-04 -1.951871e+02  9.954538e+03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.77171e+008
+rel. change during last iteration : -9.97134e-007
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6866.32
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.71464e+007
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -195.187         +/- 75.6         (38.73%)
+b               = 9954.54          +/- 7503         (75.37%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Thu Jan 14 11:17:49 2016
+
+
+FIT:    data read from 'TaxaDeCorrosao.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.3834200315e+12  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   7 7.5151515147e-01 -1.04e-05 7.02e-03 -8.183858e+03  2.455158e+05
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.751515
+rel. change during last iteration : -1.04211e-010
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.306495
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0939394
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -8183.86         +/- 0.003374     (4.123e-005%)
+b               = 245516           +/- 0.3349       (0.0001364%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Thu Jan 14 11:20:02 2016
+
+
+FIT:    data read from 'TaxaDeCorrosao.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.9251557438e+08  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   7 1.4096969695e-03 -1.30e-05 7.02e-06 -1.506712e+02  6.026858e+03
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.0014097
+rel. change during last iteration : -1.29894e-010
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0132745
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000176212
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -150.671         +/- 0.0001461    (9.7e-005%)
+b               = 6026.86          +/- 0.0145       (0.0002407%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Thu Jan 14 13:50:52 2016
+
+
+FIT:    data read from 'TaxaDeCorrosao.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.7094776894e+05  0.00e+00 7.02e+01  1.000000e+00  1.000000e+00
+   7 5.6387878786e-09 -4.60e-06 7.02e-06 -4.991451e-01  1.996579e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 5.63879e-009
+rel. change during last iteration : -4.59747e-011
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.6549e-005
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.04848e-010
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.499145        +/- 2.923e-007   (5.856e-005%)
+b               = 19.9658          +/- 2.901e-005   (0.0001453%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 

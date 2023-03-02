@@ -1,0 +1,811 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Teste
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Teste} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neste capítulo apresentaremos uma sequência de testes realizados com o 
+\begin_inset Quotes eld
+\end_inset
+
+Simulador de Propriedades Mecânicas de Material Submetido ao Processo de
+ Corrosão por Dióxido de Carbono - Versão 1.0
+\begin_inset Quotes erd
+\end_inset
+
+ subdividas em: teste de execução e teste de erro do sistema.
+ Ambos os testes visam submeter o programa a extremas diferentes formas
+ de utilização, ou seja, da execução correta do mesmo até possíveis erros
+ do utilizador.
+\end_layout
+
+\begin_layout Section
+Teste 1: Compatibilidade, Compilação, Execução e Desempenho do software
+\end_layout
+
+\begin_layout Standard
+Este teste tem por objetivo a verificação do bom funcionamento das funções
+ do software, bem como da valia dos resultados esperados após o processamento.
+ Para isso, este teste levou em conta o comportamento do programa em dois
+ sistemas operacionais (ambientes Linux e Windows), sua inicialização, o
+ desempenho e a funcionalidade da interface com o usuário, pondo em prova
+ também a qualidade dos resultados da funções incluídas no projeto de classes.
+ Começaremos mostrando o comportamento do programa pela etapa de compatibilidade
+ com sistemas operacionais distintos.
+\end_layout
+
+\begin_layout Subsection
+Compatibilidade e Compilação
+\end_layout
+
+\begin_layout Standard
+Para esta etapa, foram escolhidos dois sistemas operativos, um deles da
+ família Microsoft e uma distribuição GNU/Linux.
+\end_layout
+
+\begin_layout Itemize
+Compatibilidade:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Foi verificado que o programa pode ser executado em ambientes Linux e Windows.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Compilação:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Foram utilizados os seguintes parâmetros para a execução:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+GNU/Linux : O programa utiliza funções C++11, portanto precisa verificar
+ se o compilador tem suporte completo para C++11.
+ Em g++, por exemplo, você tem que habilitá-lo, verifique qual a versão
+ que está usando com g++ -v, se é uma versão antiga ( como 4.2 por exemplo)
+ a funcionalidade não estará disponível.
+\end_layout
+
+\begin_layout Itemize
+Windows: Software Development Kit - contém cabeçalhos, bibliotecas e uma
+ seleção de ferramentas que você pode usar durante a criação de aplicativos
+ que são executados em sistemas operacionais Windows.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Execução e Desempenho
+\end_layout
+
+\begin_layout Standard
+Após a compilação do programa, demos início a fase de execução do mesmo,
+ um teste do sistema.
+ Como resultado deste teste, espera-se que o programa apresente as respostas
+ esperadas.
+ Dentre as duas opções de método de entrada oferecidas na tela inicial.
+ (ver Figuras 7.1 e 7.2) optei pela entrada de dados oriundos de um arquivo
+ externo chamado 
+\emph on
+Teste.txt
+\emph default
+, que contém como parâmetros de entrada os valores de carga [N], comprimento
+ [mm] e temperatura [ºC], baseados no experimento retirado no artigo 
+\emph on
+Mechanical properties of CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ corrosion scale formed at different temperatures and their relationship
+ to corrosion rate, 
+\emph default
+cuja autoria são de 
+\emph on
+S.D.Zhu, G.S.Zhou, J.Miao, R.Cai e J.F.Wei.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Entrada de dados via arquivo de texto.png
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arquivo
+\emph on
+ Teste.txt
+\emph default
+ para leitura do programa.
+ Tela mostrando o arquivo de entrada de dados
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tela-mostrando-o"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Entrada de dados manual ( teclado).png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+O usuário fornece valores de carga, comprimento e temperatura respectivamente
+ fornecido manualmente pelo usuário
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:O-usuário-fornece"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Já na Figura 7.3, verificamos a entrada de dados como parâmetros acessórios
+ requeridos pelo programa para execução dos cálculos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Teste - parametros acessorios.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Parâmetros acessórios
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Parâmetros-acessórios"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resultados
+\end_layout
+
+\begin_layout Standard
+Logo abaixo visualizamos os resultados da simulação.
+ Ao analisarmos os resultados, verificamos que o programa está realizando
+ suas funções de forma satisfatória.
+\end_layout
+
+\begin_layout Subsection
+Propriedade mecânica Módulo Elástico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/ModuloElastico Resultado Calculo.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Saída na janela de execução do programa
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Saída-na-janela"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/ModuloElastico Resultado Grafico.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Saída do gráfico em arquivo de imagem
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Saída-do-gráfico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Propriedade mecânica Tenacidade à fratura
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Resultado Tenacidade Janela.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Saída na janela de execução do programa
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Saída-na-janela-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Resultado Grafico Tenacidade.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Saída do gráfico em arquivo de imagem
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Saída-do-gráfico-1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Propriedade mecânica Taxa Corrosiva
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Taxa De Corrosão Janela de Execucao.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Saída na janela de execução do programa
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Saída-na-janela-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Resultado Grafico TaxaDeCorrosao.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sáida do gráfico em arquivo de imagem
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sáida-do-gráfico"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Teste 2 : Erro
+\end_layout
+
+\begin_layout Standard
+Para este segmento, foi conferido o desempenho do programa com relação a
+ possíveis equívocos tomados pelo usuário durante a execução do programa.
+ Este teste tem a finalidade de verificar se estes erros estão sendo suportados
+ pelo código concebido, não permitindo que eles atrapalhem a obtenção dos
+ resultados.
+\end_layout
+
+\begin_layout Itemize
+Falha de digitação:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Caso o usuário informe um arquivo inexistente, o programa acusará o erro
+ ilustrado na Figura 7.10.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Erro De Digitação 1.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Teste de erro de arquivo
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Teste-de-erro"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Caso o usuário utilize vírgula no lugar do ponto, poderá alterar a execução
+ do programa.
+ Veja ao utilizar 0,00025, o programa pula a pergunta 
+\emph on
+Informe o comprimento diagonal de indentacao (m
+\emph default
+).
+ Figura 7.11 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/erro por ponto.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Erro de Digitação - Ponto por Vírgula
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Erro-de-Digitação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Entrada Inexistente
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Caso o usuário opte por algum tipo de entrada que o programa não possui
+ suporte, o mesmo não permitirá o prosseguimento da simulação.
+ Figura7.12.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Entrada Invalida.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Entrada Inválida
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Entrada-Inválida"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

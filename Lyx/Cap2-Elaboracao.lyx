@@ -1,0 +1,964 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Elaboração
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Elaboração
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Elaboração"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neste capítulo iremos apresentar o processo que levou a criação do software,
+ isto inclui atividades como: entrevistas, pesquisas bibliográficas e elaboração
+ de diagramas de pacote.
+ 
+\end_layout
+
+\begin_layout Section
+Análise de domínio
+\end_layout
+
+\begin_layout Standard
+A análise de domínio é uma parte da elaboração; seu objetivo é entender
+ o domínio, a abrangência do sistema a ser desenvolvido.
+ Envolve itens como estimar o reuso do sistema.
+ Neste ponto, o analista pensa no sistema de uma forma mais genérica, identifica
+ndo conceitos fundamentais que podem ser reaproveitados em outros sistemas.
+\end_layout
+
+\begin_layout Itemize
+Estudo dos requisitos/especificações do sistema.
+\end_layout
+
+\begin_layout Itemize
+Definição e caracterização do domínio a ser investigado (área dos programas
+ e bibliotecas a serem investigadas).
+\end_layout
+
+\begin_layout Itemize
+Manter contato com especialistas que tenham domínio dos conceitos envolvidos.
+\end_layout
+
+\begin_layout Itemize
+Deve-se fazer entrevistas com os usuários do sistema .
+\end_layout
+
+\begin_layout Itemize
+Identificação de amostras .
+\end_layout
+
+\begin_layout Itemize
+Identificação e definição dos objetos genéricos .
+\end_layout
+
+\begin_layout Section
+Formulação teórica
+\end_layout
+
+\begin_layout Standard
+Apresentaremos nesta seção o embasamento teórico para a criação e execução
+ deste projeto de engenharia.
+\end_layout
+
+\begin_layout Subsection
+Propriedades mecânicas
+\end_layout
+
+\begin_layout Standard
+A determinação e conhecimento das propriedades mecânicas é importante para
+ a escolha do material para uma determinada aplicação, como exemplo o projeto
+ e fabricação dos oleodutos.
+ As propriedades mecânicas definem o comportamento do material quando sujeito
+ à esforços mecânicos, pois estas estão relacionadas à capacidade do material
+ de resistir ou transmitir estes esforços sem romper e sem se deformar de
+ forma incontrolável.
+\end_layout
+
+\begin_layout Standard
+As propriedades mecânicas são de relevante importância na maioria das aplicações
+ para as quais se destinam os materiais.
+ Algmas propriedades mecânicas importantes são o módulo de elasticidade,
+ a dureza, a ductilidade e a rigidez.
+\end_layout
+
+\begin_layout Standard
+Neste trabalho serão modelados as propriedades mecânicas mais decisivas
+ no desempenho de máquinas e dispositivos submetidos a trabalho mecânico
+ para a caracterização da superfície de um material: módulo de elasticidade
+ e tenacidade à fratura.
+\end_layout
+
+\begin_layout Subsection
+Módulo de elasticidade
+\end_layout
+
+\begin_layout Standard
+Há três maneiras de se aplicar uma carga sobre um sólido: tensão, compressão
+ e cisalhamento.
+ Um teste mecânico bastante comum é o teste de tensão, onde o material em
+ estudo, na forma cilíndrica, é deformado até a fratura em um equipamento
+ de tipo 
+\begin_inset Quotes eld
+\end_inset
+
+Instron
+\begin_inset Quotes erd
+\end_inset
+
+ que aplica uma força de tensão longitudinal de forma que a taxa de enlongação
+ obtida seja constante no tempo.
+ A carga aplicada é medida por uma célula de carga e a elongação por um
+ extensômetro (CALLISTER JR,1997).
+\end_layout
+
+\begin_layout Standard
+Durante a realização do teste, para uma determinada força aplicada F[N],
+ as ligações internas são rompidas, e o material se alonga permanentemente.
+ A tendência ao rompimento é oposta por reações internas, chamadas de tensões
+ ( MEYERS; CHAWLA,1999).
+ 
+\end_layout
+
+\begin_layout Standard
+Geralmente, usa-se normas técnicas para o procedimento das medidas e confecção
+ do corpo de prova para garantir que os resultados sejam comparáveis.
+ As normas técnicas mais comuns são elaboradas pelas:
+\end_layout
+
+\begin_layout Itemize
+ASTM (
+\emph on
+American Society for Testing and Materials
+\emph default
+).
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+ABNT (Associação Brasileira de Normas Técnicas).
+\end_layout
+
+\begin_layout Standard
+Naturalmente, a intensidade do conjunto dessas tensões depende da geometria
+ da amostra: se a área da seção transversal A [mm²] for dobrada , a resposta
+ interna será duas vezes maior.
+ Desse modo, defini-se tensão normal 
+\begin_inset Formula $\sigma$
+\end_inset
+
+
+\begin_inset Formula $_{n}$
+\end_inset
+
+como a resistência por unidade de área ( MEYERS; CHAWLA, 1999):
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+\sigma_{n}=\frac{F}{A}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com um aumento 
+\begin_inset Formula $dF$
+\end_inset
+
+ na carga aplicada, a amostra sofre uma elongação 
+\emph on
+dl
+\emph default
+ em que o aumento normalizado do comprimento será:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+d\varepsilon_{n}=\frac{dl}{l}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Integrando a equação 2, tem-se:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+d\varepsilon_{n}=_{l_{0}}\intop^{l_{1}}\frac{dl}{l}=ln\frac{l_{1}}{l_{0}}
+\end{equation}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+onde l
+\begin_inset Formula $_{0}$
+\end_inset
+
+[mm] é o comprimento inicial e 
+\begin_inset Formula $l_{1}$
+\end_inset
+
+[mm] é a deformação verdadeira longitudinal.
+\end_layout
+
+\begin_layout Standard
+Para a maioria das aplicações, como o teste de tensão, é utilizada uma definição
+ mais simples, a deformação que decorre da equação 1:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+\varepsilon=\frac{l_{1}-l_{0}}{l_{0}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Da mesma forma, define-se a tensão [N/mm²] :
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+\sigma=\frac{F}{A_{0}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde A
+\begin_inset Formula $_{0}$
+\end_inset
+
+ [mm²] é a área original da seção transversal, antes do material se deformar
+ permanentemente.
+ Para pequenas deformações, os valores verdadeiros e de engenharia são aproximad
+amente os mesmos.
+ Por convenção, tensões e deformações trativas são positivas, e tensões
+ e deformações compressivas são negativas ( MEYERS; CHAWLA, 1999).
+ A relação entre tensão e deformação foi demonstrada experimentalmente em
+ 1678 por Robert Hooke ( MEYERS; CHAWLA, 1999):
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+E=\frac{\sigma}{\varepsilon}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A temperatura influencia nas propriedades mecânicas do material, como ilustrado
+ na figura 3.1.
+ O aumento da temperatura 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+provoca:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\downarrow$
+\end_inset
+
+Módulo elástico
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\downarrow$
+\end_inset
+
+Tensão
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\uparrow$
+\end_inset
+
+Ductibilidade
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/variacao das prop com a temp.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Carga de carregamento e descarregamento em função da profundidade
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Carga-de-carregamento"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A figura 3.2 e 3.3 mostram o comportamento do módulo elástico e tenacidade
+ à fratura em função da variação da temperaura respectivamente.
+ Válido ressaltar, que é muito comum a formação de uma fina camada chamada
+ de 
+\emph on
+película protetora
+\emph default
+.
+ Essa película pode retardar o processo corrosivo a medida que aumenta a
+ temperatura, por isso que a partir de 100°C, momento que ocorre a formação
+ da película , as propriedades mecânicas, módulo elástico e tenacidade à
+ fratura aumentam em função do aumento da temperatura, como ilustram as
+ figuras 3.2 e 3.3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/ModuloElasticoxTemperatura.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Módulo Elástico e dureza de escala corrosiva de CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ formados em diferentes temperaturas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Módulo-Elástico-e"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tenacidade à fratura
+\end_layout
+
+\begin_layout Standard
+A resistência à fratura foi medida em K
+\begin_inset Formula $_{IC}$
+\end_inset
+
+ [MPa m
+\begin_inset Formula $^{1/2}$
+\end_inset
+
+] em seções transversais polidas de escala corrosiva por meio de ensaios
+ de microdureza Vickers, o qual foi calculado conforme a equação:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+K_{IC}=\frac{0,294d(EP)^{1/2}}{c^{3/2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Onde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+= 0,04
+\end_layout
+
+\begin_layout Standard
+E = módulo de elasticidade [GPa]
+\end_layout
+
+\begin_layout Standard
+H = dureza [GPa]
+\end_layout
+
+\begin_layout Standard
+P = carga aplicada [ N]
+\end_layout
+
+\begin_layout Standard
+c
+\begin_inset Formula $^{3/2}$
+\end_inset
+
+= total do comprimento da fenda [m]
+\end_layout
+
+\begin_layout Standard
+d = comprimento diagonal de indentação [m]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/Tenacidade x Temperatura.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tenacidade à fratura de escala corrosiva de CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+formados em diferentes temperaturas
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tenacidade-à-fratura"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Taxa de corrosão
+\end_layout
+
+\begin_layout Standard
+O aço de carbono é utilizado como material em instalações petrolíferas,
+ no entanto ele é suscetível à corrosão em ambientes contendo CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+, podendo levar a graves danos.
+ A temperatura é um dos fatores que influenciam em ambientes de corrosão
+ de CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ Em geral a temperatura desempenha um efeito sobre os valores da taxa de
+ corrosão e da taxa da camada do produto de corrosão.
+ Devido a existência de CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ em alguns campos de petróleo, estudos tem sido realizados a respeito do
+ teor de CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ e alta concentração de cloreto.
+ Este trabalho visou estudar a corrosão do aço carbono em solução saturada
+ por CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ em diferentes temperaturas.
+\end_layout
+
+\begin_layout Standard
+A avaliação da taxa de corrosão é feita através do ensaio de perda de massa
+ que avalia a perda de massa do material após sua inversão no meio estudado.
+ Os corpos de prova precisam ser pesados, antes e após o ensaio.
+ Após cada período de realização do ensaio, os corpos de prova foram colocados
+ numa solução para remoção dos produtos de corrosão e pesados novamente.
+ A taxa de corrosão foi então calculada.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+CR=\frac{(W_{0}-W_{1})*1000*365*24}{t*\rho*S}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sendo:
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset Formula $_{0}$
+\end_inset
+
+ = peso original da espécie [g]
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset Formula $_{1}$
+\end_inset
+
+ = peso final da espécie [g]
+\end_layout
+
+\begin_layout Standard
+t = tempo de imersão [h]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho$
+\end_inset
+
+= densidade do aço [ 7,8 x 10 
+\begin_inset Formula $^{-3}$
+\end_inset
+
+g mm
+\begin_inset Formula $^{-3}$
+\end_inset
+
+ ] é usado no presente trabalho
+\end_layout
+
+\begin_layout Standard
+S = superfície exposta da espécie [mm²]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Elaboração/taxa corrosiva x temp.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Valores da taxa de corrosão do ensaio de perda de massa em diferentes temperatur
+as.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Valores-da-taxa"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Identificação de pacotes
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Identificação de pacotes
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Identificação-de-pacotes"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Assuntos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Após estudo dos requisitos/especificações do sistema, algumas entrevistas
+ com profissionais acadêmicos como a professora Georgiana Feitosa, estudos
+ na biblioteca do LENEP e disciplinas do curso foi possível identificar
+ nosso domínio de trabalho:
+\end_layout
+
+\begin_layout Itemize
+Pacote Propriedade Mecânica:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Descrição: é o pacote formado pelos conceitos de propriedades mecânicas
+ pertinentes ao assunto, sendo preponderante para designar o tipo de modelo
+ de cálculo a ser aplicado, influenciando diretamente nos resultados obtidos
+ pelos demais componentes envolvidos;
+\end_layout
+
+\begin_layout Itemize
+Está intimamente ligada com o problema , visto que o mesmo faz uso dos parâmetro
+s para estimar as propriedades mecânicas, de amostras submetidas a temperaturas
+ diferentes.
+ Os valores encontrados são determinantes para que possam ser tomadas decisões
+ sobre o futuro da operação de produção.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pacote Biblioteca Numérica:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Descrição: é o pacote composto por assuntos ligados a matemática geral.
+ Este pacote é responsável pela concepção final do melhor ajuste para os
+ dados de entrada, referente ao cálculo de propriedades mecânicas mais importane
+s para a caracterização da superfície de um material formados às diferentes
+ temperaturas e na determinação das correspondentes taxas corrosivas.
+ Este pacote tem uma ligação direta com o pacote Propriedade Mecânica, pois
+ do mesmo ele recebe os parâmetros necessários para executar suas tarefas,
+ aonde encontram-se algumas definições como:tenacidade à fratura e taxa
+ de corrosão respectivamente:
+\begin_inset Formula 
+\begin{equation}
+K_{IC}=\frac{0,294d(EP)^{1/2}}{c^{3/2}}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+CR=\frac{(W_{0}-W_{1})*1000*365*24}{t*\rho*S}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pacote Gráfico
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Descrição: é o pacote formado pelo 
+\emph on
+Gnuplot.
+ 
+\emph default
+Este pacote é relacionados aos demais pois o mesmo recebe os resultados
+ de ajuste propiciados pelos pacotes Biblioteca Numérica, apresentando-os
+ de forma distribuída em eixos coordenados, de taxa de corrosão por tempo
+ decorrido.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pacote de Simulação
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Descrição: seu objetivo é o de repassar ao pacote Biblioteca Numérica os
+ resultados, para que o mesmo faça os devidos ajustes.
+ Esses resultados enviados são fruto do tratamento dos parâmetros de entrada
+ do programa, ou seja, temperaturas, tempos e taxas relacionadas.
+\end_layout
+
+\begin_layout Itemize
+Responsável por fazer os ajustes necessários, propiciandoa saída dos resultados.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Diagrama de pacotes - assuntos
+\end_layout
+
+\begin_layout Standard
+Nesta seção, apresentamos o diagrama de pacotes na Figura 3.3.
+ Percebemos a grande interação entre esses componentes, reafirmando o que
+ foi sicutido na Seção 3.3.
+ Neste diagrama, temos os seguintes componentes, representados em UML 2.0:
+\end_layout
+
+\begin_layout Itemize
+Pacote Propriedade Mecânica;
+\end_layout
+
+\begin_layout Itemize
+Pacote Biblioteca Numérica;
+\end_layout
+
+\begin_layout Itemize
+Pacote de Simulação;
+\end_layout
+
+\begin_layout Itemize
+Pacote Gráfico (Gnuplot).
+\end_layout
+
+\begin_layout Standard
+Logo abaixo temos o diagrama de pacotes para elaboração do software, como
+ descrito na análise de domínio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Diagramas/Package Diagram.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama de pacotes
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Diagrama-pacotes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
