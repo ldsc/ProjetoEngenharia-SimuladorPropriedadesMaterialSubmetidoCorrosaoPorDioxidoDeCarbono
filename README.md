@@ -1,71 +1,68 @@
 
 # Table of Contents
 
-1.  [Nome do Software (ou Biblioteca):](#org4c187a9)
-2.  [Resumo e/ou informação extra:](#org2d9a31a)
-3.  [Versão:](#org9c4fa8d)
-4.  [Data:](#orgacb3ba4)
-5.  [Autor de Contato:](#org2bbfc89)
-6.  [Lista dos Autores:](#org93e2238)
-7.  [Áreas de pesquisa vinculadas:](#org8d8f857)
-8.  [Vinculo com:](#orga22ed1d)
-9.  [Paradigmas:](#orgdced306)
-10. [Tipo de Interface:](#org0a67070)
-11. [Plataformas Suportadas:](#orgb36794e)
-12. [Linguagens Utilizadas:](#org80e24f3)
-13. [Bibliotecas Utilizadas (dependências):](#org087a625)
-14. [Softwares utilizados (dependências)](#org3974e4a)
-15. [Tipo de Licença:](#org3ebaaba)
-16. [Links:](#org1bc3443)
+1.  [Nome do Software (ou Biblioteca):](#org89542e3)
+2.  [Resumo e/ou informação extra:](#org4fb5e5f)
+3.  [Versão:](#orgfb149dd)
+4.  [Data:](#org1c4e82e)
+5.  [Autor de Contato:](#orgba8aaad)
+6.  [Lista dos Autores:](#orgd148a78)
+7.  [Áreas de pesquisa vinculadas:](#org427a8cd)
+8.  [Vinculo com:](#orgfbd47de)
+9.  [Paradigmas:](#orgd89f651)
+10. [Tipo de Interface:](#org0f00ffd)
+11. [Plataformas Suportadas:](#orgd8f9001)
+12. [Linguagens Utilizadas:](#org05770e9)
+13. [Bibliotecas Utilizadas (dependências):](#orga8ff96c)
+14. [Softwares utilizados (dependências)](#org71c498c)
+15. [Tipo de Licença:](#org348aa12)
+16. [Links:](#org0fb3c78)
 
 
-<a id="org4c187a9"></a>
+<a id="org89542e3"></a>
 
 # Nome do Software (ou Biblioteca):
 
--   Simulador de Propriedades Mecânicas de Material Submetido
+-   Simulador de Propriedades Mecânicas de Material Submetido ao Processo de Corrosão por Dióxido de Carbono.
+-   Desenvolver um programa que receba dados reais ou arbitrários e calcule as propriedades mecânicas do material a partir de onde serão gerados gráficos
 
-ao Processo de Corrosão por Dióxido de Carbono.
+que poderão ser utilizados para análise de taxas corrosivas.
+
+-   ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
+
+
+<a id="org4fb5e5f"></a>
+
+# Resumo e/ou informação extra:
 
 -   Desenvolver um programa que receba dados reais ou arbitrários e calcule as
 
 propriedades mecânicas do material a partir de onde serão gerados gráficos
 que poderão ser utilizados para análise de taxas corrosivas.
 
--   ProjetoEngenharia-SimuladorPropriedadesMecanicasMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
 
-ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
-
-
-<a id="org2d9a31a"></a>
-
-# Resumo e/ou informação extra:
-
--   
-
-
-<a id="org9c4fa8d"></a>
+<a id="orgfb149dd"></a>
 
 # Versão:
 
 -   1.0.
 
 
-<a id="orgacb3ba4"></a>
+<a id="org1c4e82e"></a>
 
 # Data:
 
--   2013/2 - segundo semestre.
+-   2015/2 - segundo semestre.
 
 
-<a id="org2bbfc89"></a>
+<a id="orgba8aaad"></a>
 
 # Autor de Contato:
 
 -   André Duarte Bueno <andreduartebueno@gmail.com>
 
 
-<a id="org93e2238"></a>
+<a id="orgd148a78"></a>
 
 # Lista dos Autores:
 
@@ -73,63 +70,64 @@ ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarb
 -   André Duarte Bueno <andreduartebueno@gmail.com>
 
 
-<a id="org8d8f857"></a>
+<a id="org427a8cd"></a>
 
 # Áreas de pesquisa vinculadas:
 
 -   Modelagem Matemática Computacional
+-   Corrosão
 
 
-<a id="orga22ed1d"></a>
+<a id="orgfbd47de"></a>
 
 # Vinculo com:
 
 -   Trabalho da disciplina de programação prática.
 
 
-<a id="orgdced306"></a>
+<a id="orgd89f651"></a>
 
 # Paradigmas:
 
 -   POO - Programação Orientada a Objeto (códigos em C++)
 
 
-<a id="org0a67070"></a>
+<a id="org0f00ffd"></a>
 
 # Tipo de Interface:
 
 -   Terminal e gráfica (gnuplot).
 
 
-<a id="orgb36794e"></a>
+<a id="orgd8f9001"></a>
 
 # Plataformas Suportadas:
 
 -   Windows e GNU/Linux e Mac OS X (não testada).
 
 
-<a id="org80e24f3"></a>
+<a id="org05770e9"></a>
 
 # Linguagens Utilizadas:
 
 -   C++ 11.
 
 
-<a id="org087a625"></a>
+<a id="orga8ff96c"></a>
 
 # Bibliotecas Utilizadas (dependências):
 
 -   CGnuplot - <https://github.com/ldsc/CGnuplot>
 
 
-<a id="org3974e4a"></a>
+<a id="org71c498c"></a>
 
 # Softwares utilizados (dependências)
 
 -   gnuplot <http://www.gnuplot.info/>
 
 
-<a id="org3ebaaba"></a>
+<a id="org348aa12"></a>
 
 # Tipo de Licença:
 
@@ -142,7 +140,7 @@ ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarb
 -   Na descrição do projeto informe que trata-se de uma nova versão, que tem como base a versão anterior e DESTAQUE COM CLAREZA E OBJETIVIDADE QUAIS AS NOVIDADES DA NOVA VERSÃO.
 
 
-<a id="org1bc3443"></a>
+<a id="org0fb3c78"></a>
 
 # Links:
 
